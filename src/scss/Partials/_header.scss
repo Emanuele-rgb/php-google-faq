@@ -1,0 +1,33 @@
+header {
+  .menu li{
+    display: inline-block;
+    margin-left: 20px;
+  }
+}
+
+.google-logo {
+  height: 35px;
+  width: 110px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('https://i2.wp.com/www.designplayground.it/wp-content/uploads/2015/09/designplayground-google-logo-feat.jpg?resize=1015%2C631');
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid $main-text-color;
+  background-color: #F3F3F3;
+}
+
+.privacy {
+  margin-top: 8px;
+  margin-left: 80px;
+  height: 100%;
+  width: 120%;
+}
